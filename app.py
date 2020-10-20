@@ -19,9 +19,17 @@ while True:
       feelings_list.append("bored")
       encouragement_list.append("Find new hobbies to do or go out! or sleep!")
       counter += 1
-    if each_word == "tiring":
-      feelings_list.append("tiring")
+    if each_word == "tiring" or "tired"
+      feelings_list.append("tired")
       encouragement_list.append("Git sum sleep boiiii!")
+      counter += 1
+    if each_word == "sad":
+      feelings_list.append("sad")
+      encouragement_list.append("Do something you like! like reading your fav book or watching your fav youtuber!")
+      counter += 1
+    if each_word == "angry":
+      feelings_list.append("angry")
+      encouragement_list.append("Calm down and take your mind off it for a while!")
       counter += 1
 
   if counter == 0:
@@ -30,7 +38,7 @@ while True:
 
   elif counter == 1:
     
-      output = "It seems that you are feeling quite " + feelings_list[0] + ". However, do remember that "+ encouragement_list[0] + "! Hope you feel better :)"  
+      output = "It seems that you are feeling quite " + feelings_list[0] + ". However, do remember that you should "+ encouragement_list[0] + "! Hope you feel better :)"  
 
   else:
 
